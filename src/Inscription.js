@@ -21,7 +21,7 @@ const Inscription = () => {
            
             // setTimeout(() => {
                 // fetch("http://localhost/api_react_bloc/user/newUser.php/user",{
-                    fetch("http://teste.terou.biz/api_react_bloc/user/newUser.php/user",{
+                    fetch("https://teste.terou.biz/api_react_bloc/user/newUser.php/user",{
                     method: "POST",
                     headers: {"Content-Type" : "application/json" },
                     body: JSON.stringify(user)

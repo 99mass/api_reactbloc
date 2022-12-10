@@ -51,7 +51,7 @@ const UpDateBloc = () => {
 
             // setTimeout(() => {
                 // fetch('http://localhost/api_react_bloc/blocs/modifier.php/bloc'+id,{
-                    fetch('http://teste.terou.biz/api_react_bloc/blocs/modifier.php/bloc'+id,{
+                    fetch('https://teste.terou.biz/api_react_bloc/blocs/modifier.php/bloc'+id,{
                     method: "PUT",                   
                     headers: {"content-type":"application/json" },
                      body: JSON.stringify(blog)

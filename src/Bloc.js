@@ -21,7 +21,7 @@ const Bloc = () => {
         // ici on recuper notre hock personnel : useFetch pour recuperer les donnee du serveur
         // const {datas: blogs,isloading,error}=useFetch('http://localhost:8000/blogs?_sort=id&_order=desc'); //afficher les donnnes dans l'oder decroissant
         //  const {datas: blogs,isloading,error}=useFetch('http://localhost/api_react_bloc/blocs/lire.php/bloc');
-         const {datas: blogs,isloading,error}=useFetch('http://teste.terou.biz/api_react_bloc/blocs/lire.php/bloc');
+         const {datas: blogs,isloading,error}=useFetch('https://teste.terou.biz/api_react_bloc/blocs/lire.php/bloc');
         
         return ( <div className="container bigBog"> 
                 {/* <BlocList blogs={blogs.filter( (blog) => blog.author === 'samba' )}  /> */}  {/*afficher les Bloc de samba  */}

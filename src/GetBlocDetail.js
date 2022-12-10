@@ -9,7 +9,7 @@ const GetBlocDetail = () => {
 
      // ici on recuper notre hock personnel : useFetch pour recuperer une bloc dans le serveur en fonction de l'id
         // const {datas: blog,isloading,error}=useFetch('http://localhost/api_react_bloc/blocs/lire_un.php/'+id);
-        const {datas: blog,isloading,error}=useFetch('http://teste.terou.biz/api_react_bloc/blocs/lire_un.php/'+id);
+        const {datas: blog,isloading,error}=useFetch('https://teste.terou.biz/api_react_bloc/blocs/lire_un.php/'+id);
     // fonction pour supprimer un bloc 
         const history=useHistory();
         
@@ -18,7 +18,7 @@ const GetBlocDetail = () => {
        const avis= window.confirm("vous allez supprimer le bloc ?");
         if (avis===true) {   
         //  fetch('http://localhost/api_react_bloc/blocs/supprimer.php/'+id,{
-            fetch('http://teste.terou.biz/api_react_bloc/blocs/supprimer.php/'+id,{
+            fetch('https://teste.terou.biz/api_react_bloc/blocs/supprimer.php/'+id,{
             method: "DELETE"
            })
            .then(()=>{

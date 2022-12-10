@@ -30,7 +30,7 @@ const AddBloc = () => {
            
             setTimeout(() => { 
                 // fetch("http://localhost/api_react_bloc/blocs/creer.php/bloc",{
-                 fetch('http://teste.terou.biz/api_react_bloc/blocs/creer.php/bloc',{
+                 fetch('https://teste.terou.biz/api_react_bloc/blocs/creer.php/bloc',{
                     method: "POST",
                     headers: {"Content-Type" : "application/json" },
                     body: JSON.stringify(blog)
