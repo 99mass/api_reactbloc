@@ -1,0 +1,17 @@
+.div_delete_edit{
+    justify-content: space-around;
+    margin-top: 5px;
+    display: flex;
+}
+.div_delete_edit button,.div_delete_edit span{
+   box-shadow: 2px 2px 3px gray;
+   border: none;
+   width: auto;
+   color: white;
+}
+.div_delete_edit button{
+   background-color: rgba(236, 9, 9, 0.658);
+}
+.div_delete_edit span{
+   background-color: rgba(22, 22, 218, 0.712);
+}

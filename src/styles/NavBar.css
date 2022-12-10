@@ -1,0 +1,14 @@
+#fdiv{
+    justify-content: flex-end;
+}
+h2{
+    color: chocolate;
+}
+#fdiv a{
+    color: white;
+    font-size: medium;
+}
+.btnAcceuil,
+.btnCreerBloc{
+    border-radius: 40px;
+}

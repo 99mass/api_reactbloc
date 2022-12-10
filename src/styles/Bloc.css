@@ -1,0 +1,37 @@
+.bigBog{
+    padding-left: 25%;
+    padding-right: 25%;
+
+}
+
+#titre{
+    text-align: center;
+}
+#titre span {
+    color: blue;
+}
+#contenu{
+    width: 100%;
+    height: auto;
+    border: 2px solid gray;
+    background-color: white;
+    box-shadow: 3px 3px 3px white;
+    border-radius: 2% 2%;
+}
+#contenu span{
+    color: black;
+}
+.author span{
+    float: right;
+}
+#contenu:hover{
+ box-shadow: 3px 3px black;
+}
+
+button{
+    width: 20%;
+}
+h3{
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px yellow;
+}

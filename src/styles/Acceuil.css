@@ -1,0 +1,42 @@
+.bigBog{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
+
+}
+h4{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.divForm{
+    box-shadow: 5px 5px 5px gray;
+    padding: 15px;
+    border-radius: 0px 10px 0px 10px;
+    border-left: 6px solid  blue;
+}
+.divBtnFogotPassword{
+    display: flex;
+    justify-content: space-between;
+}
+.divBtnFogotPassword span{
+    font-size: small;
+    text-decoration: underline;
+}
+h5{
+    text-align: center;
+    text-decoration: underline;
+}
+h6{
+    color: red;
+    font-style: italic;
+    margin-bottom: 3px;
+    text-align: center;
+}
+.goodPassword{
+    color: tomato;
+    font-size: small;
+    font-style: italic;
+    display: block;
+    margin-bottom: 5px;
+    
+}
