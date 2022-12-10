@@ -28,7 +28,7 @@ const UpDateBloc = () => {
 
     // recuperer le contenu des differentes champs de l'id selectionner
       useEffect(() => {
-        fetch('http://teste.terou.biz/api_react_bloc/blocs/lire_un.php/'+id)
+        fetch('https://teste.terou.biz/api_react_bloc/blocs/lire_un.php/'+id)
         .then((res) => {
             return res.json();
         })
