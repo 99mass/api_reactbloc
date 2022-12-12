@@ -48,7 +48,7 @@ const Inscription = () => {
     }
     
     return ( 
-             <div className="container bigBog">
+             <div className="container-fluid bigBog">
               <div className="divForm">
                          <h4>Incription</h4>
                     <form onSubmit={addUser}>

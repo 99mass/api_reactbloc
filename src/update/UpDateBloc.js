@@ -70,7 +70,7 @@ const UpDateBloc = () => {
     }
         
     return (   
-             <div className="container bigBog"> 
+             <div className="container-fluid bigBog"> 
                     <form onSubmit={upDateBlocform}>
                             
                                 <input   type="hidden"

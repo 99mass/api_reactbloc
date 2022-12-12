@@ -1,8 +1,8 @@
-.bigBog{
+/* .bigBog{
     padding-left: 25%;
     padding-right: 25%;
 
-}
+} */
 
 #titre{
     text-align: center;
@@ -34,4 +34,14 @@ button{
 h3{
     text-decoration: underline;
     text-shadow: 2px 2px 3px yellow;
+
 }
+
+/* @media screen and (max-width: 768px) {
+    .bigBog{
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+    
+} */

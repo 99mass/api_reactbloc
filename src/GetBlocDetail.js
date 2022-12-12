@@ -28,7 +28,7 @@ const GetBlocDetail = () => {
          }
         }
     return ( 
-               <div className="container bigBog "> 
+               <div className="container-fluid bigBog "> 
                         {/* {error && <div className="alert alert-danger" role="alert">{error}</div>}   afficher l'erreur  */}
                          {error && <Page404 /> }
                         {isloading && <div className="d-flex justify-content-center mt-5">       {/*afficher le loading */}

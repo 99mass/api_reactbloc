@@ -44,7 +44,7 @@ const AddBloc = () => {
     }
     
     return ( 
-             <div className="container bigBog"> 
+             <div className="container-fluid bigBog"> 
                     <form onSubmit={addform}>
                             <div className="form-group">
                                 <label htmlFor="exampleFormControlInput1">title</label>

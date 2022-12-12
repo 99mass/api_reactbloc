@@ -1,4 +1,4 @@
-#fdiv{
+/* #fdiv{
     justify-content: flex-end;
 }
 h2{
@@ -11,4 +11,15 @@ h2{
 .btnAcceuil,
 .btnCreerBloc{
     border-radius: 40px;
+} */
+/* ************************************** */
+ul li{
+   margin-left: 2px;
+   margin-right: 2px;
 }
+
+.text-small {
+  font-size: 85%;
+}
+
+

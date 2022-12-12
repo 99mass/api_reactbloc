@@ -46,7 +46,7 @@ const Login = () => {
         //       setIsloading(false);
         //  }
     }
-    return (<div className="container bigBog">
+    return (<div className="container-fluid bigBog">
               <div className="divForm">
                     <h4>Login</h4>
                     {error &&  <h6>{error}</h6>}

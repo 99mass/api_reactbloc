@@ -23,18 +23,20 @@ const NavBar = () => {
         history_.push('/');
     }
 
-    return ( <nav className="navbar navbar-expand-lg navbar-dark bg-dark container mt-3 ">
-                    <div className=''>
-                    <h2 id="hh2" className='text-capitalize text-center  font-italic mb-1'>page d'acceuille</h2>
-                    </div>
-                        <div id='fdiv' className="collapse navbar-collapse ">
-                            <ul  id='sdiv' className="navbar-nav nBar">
-                                <li className='me-5' ><Link to="/Bloc" className=" nav-link btn-primary btnAcceuil" >Acceuille</Link></li>
-                                <li ><Link to="/newbloc/addBloc" className="btn-primary nav-link btnCreerBloc" >Créer Article</Link></li>
-                                <li ><Link to="" onClick={LogOut} className="btn-primary nav-link btnCreerBloc" >LogOut</Link></li>
-                            </ul>
-                        </div>
-                </nav>
+    return ( 
+              <div className="container-fluid ">
+                    <header className="d-flex bg-dark justify-content-center py-3">
+                     <ul className="nav nav-pills">
+                       
+                        <li className="nav-item"><Link to="/" className="nav-link active" aria-current="page">Home</Link></li>
+                         <li className="nav-item"><Link to="/Bloc" className="nav-link active">Bloc</Link></li>
+                        <li className="nav-item"><Link to="/newbloc/addBloc" className="nav-link active ">New Article</Link></li>
+                        <li className="nav-item "><Link to="" onClick={LogOut} className="nav-link active bg-light text-primary ">LogOut</Link></li>   
+                     </ul>
+                    </header>
+      
+                </div>
+
      );
 }
  
