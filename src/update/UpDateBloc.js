@@ -40,7 +40,7 @@ const UpDateBloc = () => {
         .catch((err) => {
             console.log(err.message);
         })
-    },[]); 
+    },[id]); 
 
 // fonction qui permet d'envoyer les donnes a modifier
     const upDateBlocform = (e) => {
@@ -76,7 +76,7 @@ const UpDateBloc = () => {
                                 <input   type="hidden"
                                          className="form-control" 
                                          id="exampleFormControlInput1"
-                                        value={id || ""}
+                                        value={id}
                                 />
                         
                             <div className="form-group">

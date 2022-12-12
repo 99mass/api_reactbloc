@@ -1,6 +1,7 @@
-import BlocList from './BlocList'
+
 import { useState,useEffect } from "react";
 import { useHistory } from "react-router-dom";
+import BlocList from './BlocList'
 import useFetch from './hockPersonel/useFetch'; //importation de notre hock useFetch
 import './styles/Bloc.css';
 

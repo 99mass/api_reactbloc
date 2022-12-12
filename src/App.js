@@ -1,14 +1,16 @@
 import { BrowserRouter ,Route,Switch } from "react-router-dom"; //importion de notre router
 import './index.css';
 
-import NavBar from './NavBar';
-import AddBloc from "./newbloc/AddBloc";
-import Bloc from './Bloc';
-import GetBlocDetail from "./GetBlocDetail";
-import Page404 from "./Page404";
-import UpDateBloc from "./update/UpDateBloc";
 import Login from "./Login";
 import Inscription from "./Inscription";
+import NavBar from './NavBar';
+import Bloc from './Bloc';
+import GetBlocDetail from "./GetBlocDetail";
+import UpDateBloc from "./update/UpDateBloc";
+import AddBloc from "./newbloc/AddBloc";
+import Page404 from "./Page404";
+
+
 
 
 function App() {
